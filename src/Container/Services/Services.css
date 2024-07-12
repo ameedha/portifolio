@@ -1,0 +1,44 @@
+.service_container h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.service_Wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-bottom: 50px;
+}
+.service_item {
+  background: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+.service_icon {
+  font-size: 40px;
+}
+.service_content h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.service_content p {
+  margin-bottom: 30px;
+}
+
+.service_content a {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.service_item:hover {
+  background: rgb(237, 83, 237);
+  transform: translatey(-10px);
+}

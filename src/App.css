@@ -1,0 +1,33 @@
+:root {
+  --primary-color: rgb(237, 83, 237);
+  --heading-color: #fff;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #080808;
+  color: var(--heading-color);
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: unset;
+}
+
+link {
+  text-decoration: none;
+  color: unset;
+}
+link:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  width: 1140px;
+  padding: 0 px 15px;
+  margin: auto;
+}

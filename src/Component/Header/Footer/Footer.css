@@ -1,0 +1,39 @@
+.Footer_container {
+  background: #242424;
+  height: 210px;
+  margin-bottom: 20px;
+}
+.footer_heading h1 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.social_icons a {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #fff;
+  display: inline-block;
+  column-gap: 10px;
+  transition: transform(0.5s);
+}
+.social_icons a:hover {
+  transform: translateY(-5px);
+  color: var(--primary-color);
+}
+
+.footer_content {
+  display: flex;
+}
+.footer_description,
+.social_icons {
+  width: 50%;
+}
+.footer_description {
+  margin-left: 20px;
+}
+
+.social_icons {
+  text-align: right;
+  margin-right: 100px;
+}

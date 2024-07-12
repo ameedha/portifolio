@@ -1,0 +1,39 @@
+.about_container {
+  padding: 80px 0;
+  color: #d4d0d0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.images {
+  flex-basis: 35%;
+  width: 50%;
+}
+.images img {
+  border-radius: 25px;
+  height: 220px;
+  width: 100%;
+}
+.content {
+  flex-basis: 60%;
+  width: 50%;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.content p {
+  font-size: 16px;
+}
+.titles {
+  margin: 20px 0 40px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.subtitles {
+  justify-content: space-between;
+}
+.subtitles span {
+  color: var(--primary-color);
+}

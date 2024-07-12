@@ -1,0 +1,11 @@
+.home_text p,
+.home_text h3 {
+  padding-left: 12%;
+  margin-top: 0%;
+}
+.home_text p {
+  font-size: 15px;
+}
+.home_text span {
+  color: var(--primary-color);
+}
